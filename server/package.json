@@ -1,13 +1,13 @@
 {
-    "name": "JATE",
+    "name": "pwa-text-editor",
     "version": "1.0.0",
-    "description": "",
+    "description": "This is a simple text editor runs on difference devices",
     "main": "server.js",
     "scripts": {
         "server": "nodemon server.js --ignore client"
     },
     "keywords": [],
-    "author": "",
+    "author": "SK",
     "license": "ISC",
     "dependencies": {
         "express": "^4.17.1"
