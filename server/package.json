@@ -1,5 +1,5 @@
 {
-    "name": "pwa-text-editor",
+    "name": "jate-text-editor",
     "version": "1.0.0",
     "description": "This is a simple text editor runs on difference devices",
     "main": "server.js",
