@@ -2,6 +2,24 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 
+## Description
+
+The purpose is to build a single-page text editor application that runs in the browser that meets the PWA criteria. Additionally, it featured a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The applications also function offline.
+
+When building this text editor, I started with an existing application and implemented methods for getting and storing data to an IndexedDB database. I used a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. Then, I deployed this full-stack application to Heroku.
+
+
+## Table of Contents
+
+- [Description](#description)
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+
+
 ## User Story
 
 ```md
@@ -39,22 +57,6 @@ THEN I should have my static assets pre cached upon loading along with subsequen
 WHEN I deploy to Heroku
 THEN I should have proper build scripts for a webpack application
 ```
-
-
-## Table of Contents
-
-- [Description](#description)
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-
-
-## Description
-
-The purpose is to build a text editor that runs in the browser. The app is a single-page application that meets the PWA criteria. Additionally, it featured a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The applications also function offline.
-
-When building this text editor, I started with an existing application and implemented methods for getting and storing data to an IndexedDB database. I used a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. Then, I deployed this full-stack application to Heroku.
 
 
 ## Technologies
