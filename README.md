@@ -93,7 +93,7 @@ To use the application,
     npm run start               Press Enter
 ```
 
-- Visit the live website [by clicking here!](link)
+- Visit the live website [by clicking here!](https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com/)
 
 
 ## License
