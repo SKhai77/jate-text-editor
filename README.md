@@ -4,7 +4,7 @@
 
 ## Description
 
-The purpose is to build a single-page text editor application that runs in the browser that meets the PWA criteria. Additionally, it featured a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The applications also function offline.
+The purpose of this project is to build a single-page text editor application that runs in the browser that meets the PWA criteria. Additionally, it featured a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The applications also function offline.
 
 When building this text editor, I started with an existing application and implemented methods for getting and storing data to an IndexedDB database. I used a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. Then, I deployed this full-stack application to Heroku.
 
@@ -62,11 +62,13 @@ THEN I should have proper build scripts for a webpack application
 ## Technologies
 
 - Express.js
+- Heroku
 - IndexedDB API
 - JavaScript
 - JSON
 - Node.js 
 - NPM 
+- Service Worker API
 
 
 ## Installation
@@ -93,7 +95,7 @@ To use the application,
     npm run start               Press Enter
 ```
 
-- Visit the live website [by clicking here!](https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com/)
+- Visit the live website by [clicking here!](https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com/)
 
 
 ## License
