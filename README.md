@@ -69,6 +69,7 @@ THEN I should have proper build scripts for a webpack application
 - Node.js 
 - NPM 
 - Service Worker API
+- Webpack
 
 
 ## Installation
@@ -94,7 +95,7 @@ To use the application,
 ```
     npm run start               Press Enter
 ```
-
+- Please refer to the Acceptance Criteria section for the steps to test the app.
 - Visit the live website by [clicking here!](https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com/)
 
 
