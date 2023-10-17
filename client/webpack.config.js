@@ -18,7 +18,7 @@ module.exports = () => {
       // Webpack plugin that generates our html file and injects our bundles.
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "pwa-text-editor",
+        title: "JATE-Text-Editor",
       }),
 
       // Injects our custom service worker
@@ -31,12 +31,13 @@ module.exports = () => {
       new WebpackPwaManifest({
         fingerprints: false,
         inject: true,
-        name: "jate text editor",
-        short_name: "text editor",
+        name: "JATE Text Editor",
+        short_name: "J.A.T.E",
         description: "This is a simple text editor runs on difference devices",
         background_color: "#225ca3",
         theme_color: "#225ca3",
         start_url: "./",
+        id: '/',
         publicPath: "./",
         icons: [
           {
@@ -53,17 +54,20 @@ module.exports = () => {
       rules: [
         {
           test: /\.css$/i,
-          use: ['style-loader', 'css-loader'],
+          use: ["style-loader", "css-loader"],
         },
         {
           test: /\.m?js$/,
           exclude: /node_modules/,
           // We use babel-loader in order to use ES6.
           use: {
-            loader: 'babel-loader',
+            loader: "babel-loader",
             options: {
-              presets: ['@babel/preset-env'],
-              plugins: ['@babel/plugin-proposal-object-rest-spread', '@babel/transform-runtime'],
+              presets: ["@babel/preset-env"],
+              plugins: [
+                "@babel/plugin-proposal-object-rest-spread",
+                "@babel/transform-runtime",
+              ],
             },
           },
         },
