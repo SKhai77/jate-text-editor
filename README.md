@@ -99,6 +99,26 @@ To use the application,
 - Visit the live website by [clicking here!](https://skhai77-jate-text-editor-7aaafa1ed889.herokuapp.com/)
 
 
+The following image shows the deployed application view on internet browser with `Install Me!` button:
+
+![Manifest Screenshot](./assets/00-deployed-app-browser-view.png)
+
+
+The following image shows the application's `manifest.json` file:
+
+![Manifest Screenshot](./assets/01-manifest.png)
+
+
+The following image shows the application's registered `service worker`:
+
+![Service Worker Screenshot](./assets/02-service-worker.png)
+
+
+The following image shows the application's `IndexedDB` storage:
+
+![IDB Storage](./assets/03-idb-storage.png)
+
+
 ## License
 
 This project is under the MIT License. [Click here for more information](https://opensource.org/licenses/MIT).
